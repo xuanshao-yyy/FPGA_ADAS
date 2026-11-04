@@ -1584,8 +1584,8 @@
     "sha256": "a48f324cf4c1aeb41f325264689bfe3771c794e1294bcc3662ddac2bd3ce3220"
   },
   "README.md": {
-    "bytes": 7034,
-    "sha256": "2bf90892b6e6a4fd681a98e807b1873e37ce5cdb5060f8190fb38b7ab4441ab5"
+    "bytes": 7028,
+    "sha256": "6a88c7f19ab97482a431e8c6f1880bedb02e60f37d2d65fd103fb3588d880477"
   },
   "RESOURCE_REPORT.md": {
     "bytes": 6741,
@@ -4140,8 +4140,8 @@
     "sha256": "aeaf9f1225f316f77d46b449784212fa87f84c210c54dccd5be0087c065eed0d"
   },
   "verification/model_evaluation/lane_training.md": {
-    "bytes": 8034,
-    "sha256": "c7ee3031bb0e1603dd98c81a5b6a61355832523ae27a745ef23b1fc37db717a8"
+    "bytes": 5981,
+    "sha256": "7582dc883206b47e32a4750e2aa6ef6c5983c5e88abd3b92d68e1d300aad326d"
   },
   "verification/original_switch_20261101/performance_assessment.json": {
     "bytes": 1640,
