@@ -4262,5 +4262,9 @@
   "verify.py": {
     "bytes": 1032,
     "sha256": "3f52c34e25ead5fed1cdfaf1e7ed601c0395316d0e26c425624ea90cac0a96bd"
+  },
+  "作品简介.md": {
+    "bytes": 1585,
+    "sha256": "b0f1575cdf918081a3a61945158b6daa9c30d6ad380b0ebc80b1a9d5c91c6318"
   }
 }
