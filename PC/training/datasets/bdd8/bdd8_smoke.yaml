@@ -1,0 +1,13 @@
+path: F:/yolo_for_qiansai/datasets/bdd8
+train: smoke_train.txt
+val: smoke_val.txt
+test: images/test
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bicycle
+  6: motorcycle
+  7: traffic_light

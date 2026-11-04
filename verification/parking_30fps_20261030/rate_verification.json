@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "old_baseline_reproduces_odd_frame_drop": true,
+  "all_parity_frames_sent": true,
+  "drive_four_streams_preserved": true,
+  "panorama_unchanged": true,
+  "secondary_port_suppressed_in_park": true,
+  "physical_board_tested": false
+}

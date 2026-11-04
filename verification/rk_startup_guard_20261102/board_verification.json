@@ -1,0 +1,38 @@
+{
+  "status": "AUTO_START_VERIFIED",
+  "product_pid": 17720,
+  "preview_pid": 17802,
+  "plane_readback": {
+    "status": "READY",
+    "pid": 17802,
+    "planes": [
+      57,
+      129
+    ],
+    "before": {
+      "57": {
+        "zpos": 0,
+        "colorkey": 0
+      },
+      "129": {
+        "zpos": 4,
+        "colorkey": 0
+      }
+    },
+    "after": {
+      "57": {
+        "zpos": 1,
+        "colorkey": 2147549699
+      },
+      "129": {
+        "zpos": 0,
+        "colorkey": 0
+      }
+    },
+    "one_shot": true
+  },
+  "side_rear_fresh": true,
+  "binary_sha256": "817b33b72f8992d8017ac47449620cdd2ca750aab79a3c8a53b86399798c02d7",
+  "actual_reboot_tested": false,
+  "note": "Measured reboot defaults reproduced with modetest before startup; no manual plane fix after startup. Physical visibility and full power-cycle test are separate."
+}

@@ -1,0 +1,11 @@
+{
+  "scene": "full_05",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 645,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

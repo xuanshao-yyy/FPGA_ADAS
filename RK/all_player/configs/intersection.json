@@ -1,0 +1,11 @@
+{
+  "scene": "scene_player_intersection_static",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 0,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

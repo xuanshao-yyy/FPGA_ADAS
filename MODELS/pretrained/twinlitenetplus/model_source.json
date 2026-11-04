@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/chequanghuy/TwinLiteNetPlus",
+  "commit": "90f1b8695ae311d5123b05f8534b2e11e42499d2",
+  "official_weight_folder": "https://drive.google.com/drive/folders/1EqBzUw0b17aEumZmWYrGZmbx_XJqU-vz",
+  "downloaded": "2026-10-04",
+  "trained_locally": false,
+  "files": {
+    "third_party/twinlitenetplus_reference/model/model.py": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/model/model.py",
+      "bytes": 18978,
+      "sha256": "d26dfc2ae950038ff334155438f8c5536aeac1087778a28a2feea6206fc97fd4"
+    },
+    "third_party/twinlitenetplus_reference/model/config.py": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/model/config.py",
+      "bytes": 425,
+      "sha256": "f34024ce090b63090a501bcad17d5681d968c9b1932e929b32d9f73ccd28384f"
+    },
+    "third_party/twinlitenetplus_reference/LICENSE": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/LICENSE",
+      "bytes": 1072,
+      "sha256": "6f5d45253175ad2d856dc82acfed573cd86e64a4e4ef93a250e2f83357159946"
+    },
+    "third_party/twinlitenetplus_reference/README.md": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/README.md",
+      "bytes": 6434,
+      "sha256": "c81d68e49020e90f9ffec620e97c4840fc4f0d3de871a8f36ba3ee18d0d62df2"
+    },
+    "third_party/twinlitenetplus_reference/BDD100K.py": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/BDD100K.py",
+      "bytes": 14025,
+      "sha256": "610ee14dc4ccabe88d6cba6046086113454c6dc577a4e2905427c95671d3e001"
+    },
+    "third_party/twinlitenetplus_reference/demo.py": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/demo.py",
+      "bytes": 5513,
+      "sha256": "fb935382f35868751e05177a84a3cebfe6d2382cf2dd378fde2698cf9d579ea5"
+    },
+    "third_party/twinlitenetplus_reference/demoDataset.py": {
+      "url": "https://raw.githubusercontent.com/chequanghuy/TwinLiteNetPlus/90f1b8695ae311d5123b05f8534b2e11e42499d2/demoDataset.py",
+      "bytes": 8890,
+      "sha256": "b27cd742016d70cc3fa52c1b555b5fd2d271f62b6a40a94b1662f0795c80e34d"
+    },
+    "weights/twinlitenetplus/small.pth": {
+      "url": "https://drive.usercontent.google.com/download?id=1N7jNsa8P1dM-UevqPRsx6heUpN4L00FJ&export=download&confirm=t",
+      "bytes": 594777,
+      "sha256": "0dd3bd7356a5b70e1d21ae60cd09b55641b48bde738393177f94daff17ab6360"
+    },
+    "weights/twinlitenetplus/nano.pth": {
+      "url": "https://drive.usercontent.google.com/download?id=1SvD03WZOq8eN4X0bMFNZyzj4upZM1QVl&export=download&confirm=t",
+      "bytes": 217395,
+      "sha256": "4b76d7fe57b86a7f0583f8a07fcd767a60177fc9b054386161e1c3e12a492129"
+    }
+  }
+}

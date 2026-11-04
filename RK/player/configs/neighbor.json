@@ -1,0 +1,11 @@
+{
+  "scene": "scene_player_neighbor_video",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 108,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

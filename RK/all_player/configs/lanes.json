@@ -1,0 +1,11 @@
+{
+  "scene": "scene_player_lanes_video",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 240,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

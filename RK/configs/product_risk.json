@@ -1,0 +1,9 @@
+{
+  "id": "rig1-needs-user-calibration",
+  "channels": [
+    {"verified": 0, "metric_verified": 0, "near_polygon": [[0.3,0.6],[0.7,0.6],[0.9,0.98],[0.1,0.98]], "area_vehicle": 0.08, "area_small": 0.025, "near_m": 3.0, "stop_m": 1.5},
+    {"verified": 0, "metric_verified": 0, "near_polygon": [[0.1,0.4],[0.9,0.4],[0.98,0.98],[0.02,0.98]], "area_vehicle": 0.08, "area_small": 0.025, "near_m": 3.0, "stop_m": 1.5},
+    {"verified": 0, "metric_verified": 0, "near_polygon": [[0.1,0.4],[0.9,0.4],[0.98,0.98],[0.02,0.98]], "area_vehicle": 0.08, "area_small": 0.025, "near_m": 3.0, "stop_m": 1.5},
+    {"verified": 0, "metric_verified": 0, "near_polygon": [[0.3,0.3],[0.7,0.3],[0.9,0.98],[0.1,0.98]], "area_vehicle": 0.08, "area_small": 0.025, "near_m": 3.0, "stop_m": 1.5}
+  ]
+}

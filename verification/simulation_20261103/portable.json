@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "test_panorama_layout",
+      "status": "PASS",
+      "source_sha256": "bd95561a1e31f9e564fedd551688f775fb47e0a99ae4cec396049c05143dfb0b"
+    },
+    {
+      "test": "test_display_job",
+      "status": "PASS",
+      "source_sha256": "09c0406f54ed4b859bb2ef5e41c4327d539114b9632db50f01aac117d2af71c6"
+    },
+    {
+      "test": "test_parking_guard",
+      "status": "PASS",
+      "source_sha256": "71ea0ce683bbead84913a39a0e261d2ce93a29eeca88fec2f9fe5070c5770f9c"
+    }
+  ],
+  "compiler": "g++",
+  "scope": "Host logic assertions only; no NPU, GStreamer, physical display or accuracy test",
+  "output": "F:\\yolo_for_qiansai\\releases\\FINAL_SYSTEM_20261103\\SIMULATION\\portable\\output\\20261103_173803_840417"
+}

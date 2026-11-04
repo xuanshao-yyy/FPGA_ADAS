@@ -1,0 +1,6 @@
+# Pending annotation. Run finalize only after marking reviewed images.
+path: F:/yolo_for_qiansai/datasets/d2city_light_annotation_v1
+train: reviewed/train.txt
+val: reviewed/val.txt
+names:
+  0: traffic_light

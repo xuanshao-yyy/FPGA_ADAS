@@ -1,0 +1,41 @@
+# Camera 84MHz upper-bound budget from the supplied demo; PLL video = 50*49/66 MHz.
+create_clock -name sys_clk -period 20.000 [get_ports {sys_clk}]
+create_clock -name cmos1_pclk -period 11.900 [get_ports {cmos1_pclk}]
+create_generated_clock -name {ddrphy_clkin} -source [get_ports {sys_clk}] [get_pins {u_DDR3_50H.I_GTP_CLKDIV/CLKDIVOUT}] -master_clock [get_clocks {sys_clk}] -multiply_by {16} -divide_by {8}
+create_generated_clock -name {ioclk0} -source [get_ports {sys_clk}] [get_pins {u_DDR3_50H.I_GTP_IOCLKBUF_0/CLKOUT}] -master_clock [get_clocks {sys_clk}] -multiply_by {16} -divide_by {2}
+create_generated_clock -name {ioclk1} -source [get_ports {sys_clk}] [get_pins {u_DDR3_50H.I_GTP_IOCLKBUF_1/CLKOUT}] -master_clock [get_clocks {sys_clk}] -multiply_by {16} -divide_by {2}
+create_generated_clock -name {ioclk2} -source [get_ports {sys_clk}] [get_pins {u_DDR3_50H.I_GTP_IOCLKBUF_2/CLKOUT}] -master_clock [get_clocks {sys_clk}] -multiply_by {16} -divide_by {2}
+create_generated_clock -name {ioclk_gate_clk} -source [get_ports {sys_clk}] [get_pins {u_DDR3_50H.u_clkbufg_gate/CLKOUT}] -master_clock [get_clocks {sys_clk}] -multiply_by {16} -divide_by {8}
+create_generated_clock -name video_clk -source [get_ports {sys_clk}] -multiply_by 49 -divide_by 66 [get_nets {u_pll.clkout0}]
+create_generated_clock -name tx_pclk -source [get_ports {sys_clk}] -multiply_by 49 -divide_by 66 [get_ports {tx_pclk}]
+set_clock_uncertainty 0.200 [get_clocks {sys_clk cmos1_pclk ddrphy_clkin video_clk tx_pclk}] -setup -hold
+# Provisional board timing budgets, not measured interface characterization.
+set_input_delay -clock cmos1_pclk -clock_fall -max 5.000 [get_ports {cmos1_data[*] cmos1_href cmos1_vsync}]
+set_input_delay -clock cmos1_pclk -clock_fall -min 0.000 [get_ports {cmos1_data[*] cmos1_href cmos1_vsync}]
+set_output_delay -clock tx_pclk -clock_fall -max 2.000 [get_ports {tx_data[*] tx_hs tx_vs tx_de}]
+set_output_delay -clock tx_pclk -clock_fall -min -0.500 [get_ports {tx_data[*] tx_hs tx_vs tx_de}]
+set_false_path -to [get_ports {cmos1_scl cmos1_sda cmos1_reset cmos2_reset tx_scl tx_sda tx_reset_n rx_reset_n rx3_reset_n led[*]}]
+create_clock -name rx1_pclk -period 6.734 [get_ports {rx1_pclk}]
+set_clock_uncertainty 0.200 [get_clocks {rx1_pclk}] -setup -hold
+set_input_delay -clock rx1_pclk -max 3.000 [get_ports {rx1_data[*] rx1_vs rx1_de}]
+set_input_delay -clock rx1_pclk -min 0.000 [get_ports {rx1_data[*] rx1_vs rx1_de}]
+create_clock -name rx2_pclk -period 6.734 [get_ports {rx2_pclk}]
+set_clock_uncertainty 0.200 [get_clocks {rx2_pclk}] -setup -hold
+set_input_delay -clock rx2_pclk -max 3.000 [get_ports {rx2_data[*] rx2_vs rx2_de}]
+set_input_delay -clock rx2_pclk -min 0.000 [get_ports {rx2_data[*] rx2_vs rx2_de}]
+create_clock -name rx3_pclk -period 6.734 [get_ports {rx3_pclk}]
+set_clock_uncertainty 0.200 [get_clocks {rx3_pclk}] -setup -hold
+set_input_delay -clock rx3_pclk -max 3.000 [get_ports {rx3_data[*] rx3_vs rx3_de}]
+set_input_delay -clock rx3_pclk -min 0.000 [get_ports {rx3_data[*] rx3_vs rx3_de}]
+create_clock -name net0_clk -period 8.000 [get_nets {net_clk[0]}]
+create_clock -name net1_clk -period 8.000 [get_nets {net_clk[1]}]
+set_clock_uncertainty 0.200 [get_clocks {net0_clk net1_clk}] -setup -hold
+create_generated_clock -name cfg_clk -source [get_ports {sys_clk}] -divide_by 1 [get_nets {cfg_clk}]
+set_clock_uncertainty 0.200 [get_clocks {cfg_clk}] -setup -hold
+set_clock_groups -asynchronous -group [get_clocks {net0_clk}] -group [get_clocks {net1_clk}] -group [get_clocks {sys_clk cfg_clk}] -group [get_clocks {cmos1_pclk}] -group [get_clocks {rx1_pclk}] -group [get_clocks {rx2_pclk}] -group [get_clocks {rx3_pclk}] -group [get_clocks {video_clk tx_pclk}] -group [get_clocks {ddrphy_clkin ioclk_gate_clk}] -group [get_clocks {ioclk0}] -group [get_clocks {ioclk1}] -group [get_clocks {ioclk2}]
+set_false_path -from [get_ports {key_n rx_scl rx_sda}]
+set_false_path -to [get_ports {rx_scl rx_sda}]
+
+set_false_path -to [get_ports {sfp_disable sfp1_disable sfp2_disable}]
+
+# Same-frequency global control clock; no relaxed timing budgets.

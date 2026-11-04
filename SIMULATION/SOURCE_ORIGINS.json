@@ -1,0 +1,30 @@
+{
+  "fpga/tb_park30.sv": {
+    "source": "maintenance/parking_30fps_20261030/tb_park30.sv",
+    "sha256": "bf5f21936113df06c93a3d0f339b920273bf90dcb553fca49c73cb120fabf1bf"
+  },
+  "fpga/tb_network_panorama.sv": {
+    "source": "maintenance/fpga_panorama_mode_20261028/tb_network_panorama.sv",
+    "sha256": "9cea47c1506abb2c660a8e8906349071291faffe988e1cd24214daa76ceff2fb"
+  },
+  "fpga/tb_panorama_full.sv": {
+    "source": "maintenance/fpga_panorama_mode_20261028/tb_panorama_full.sv",
+    "sha256": "69553b00ccd703c316a9e12e1a0d10d74c08ebb3345582b880344b350c1595a6"
+  },
+  "fpga/static_input_delay.sv": {
+    "source": "maintenance/cylindrical_sfp0_20261026/project/tests/static_input_delay.sv",
+    "sha256": "8221df4dc2e23116877a25e2e9d26fe9ebd6a033b0d755353a6594ef4f472f84"
+  },
+  "fpga/fixtures/network_port_baseline.v": {
+    "source": "releases/FPGA_PANORAMA_MODE_20261028_RC2/project/rtl/network_port.v",
+    "sha256": "60ef6d5b31c8626726f312a8a233ab1fc8fd6ede3dd5c80955c6322cfe739b0a"
+  },
+  "history/panorama_pixel_verification.json": {
+    "source": "maintenance/fpga_panorama_mode_20261028/pixel_verification.json",
+    "sha256": "fbe610e12950273209ed668841e88b8e4885f0f047637d9f3f8255cd03cdfcdb"
+  },
+  "history/panorama_wire_verification.json": {
+    "source": "maintenance/fpga_panorama_mode_20261028/wire_verification.json",
+    "sha256": "27cc60cf4fe5ea5dfbfec778eb675a66ee72b2187ebcf4a25ff2922abc0bd03e"
+  }
+}

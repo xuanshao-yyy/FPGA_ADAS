@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "old_gate_negative_control",
+      "status": "PASS",
+      "scope": "expected negative control"
+    },
+    {
+      "name": "park30_current",
+      "status": "PASS",
+      "scope": "RTL simulation"
+    },
+    {
+      "name": "panorama_packet_current",
+      "status": "PASS",
+      "scope": "RTL simulation",
+      "ethernet_fcs_ip_checksum_payload_verified": true
+    }
+  ],
+  "full_pixel_scoreboard_run": false,
+  "physical_hardware_test": false,
+  "output": "F:\\yolo_for_qiansai\\releases\\FINAL_SYSTEM_20261103\\SIMULATION\\fpga\\output\\20261103_173744_419974"
+}

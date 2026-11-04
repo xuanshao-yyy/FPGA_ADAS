@@ -1,0 +1,9 @@
+{
+  "rc1_initial_physical_check": "FAIL: panels moved but exposed old window background was opaque black",
+  "rc1_one_shot_test": "User confirmed black block disappeared and video complete after setting/clearing RGB(1,2,3) background",
+  "rc2_confirmation": "User confirmed both layouts video complete and side/rear statuses normal",
+  "rc2_binary_sha256": "e32e34fd8b52ab595540f7fde626cca50d55552d1c4200374bcb402e6d249207",
+  "source": "User replies in this conversation, 2026-11-01 Hong Kong",
+  "zero_cpu_increase_confirmed_by_user": false,
+  "audibility_not_claimed": true
+}

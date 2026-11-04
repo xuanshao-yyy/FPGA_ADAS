@@ -1,0 +1,93 @@
+{
+  "version": "20261019-RC1",
+  "target": "rk3568",
+  "all_runtime_models_int8": true,
+  "application_classes": [
+    "person",
+    "rider",
+    "car",
+    "bus",
+    "truck",
+    "bicycle",
+    "motorcycle",
+    "traffic_light"
+  ],
+  "detector": {
+    "architecture": "YOLO11n",
+    "source_class_channels": 10,
+    "keep_channels_before_ranking_and_nms": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_pt": "C:/Users/rain/Desktop/rk_hyperlpr/traffic/YOLO_Traffic/result/weights/best.pt",
+    "source_sha256": "e52ceb41510ace2555cdba415af371505f585e21c6237b0b167bdb4c74246a7c",
+    "outputs": "64 DFL, 10 class scores, 1 score_sum at each stride 8/16/32",
+    "input": "uint8 RGB NHWC; RKNN mean=0,std=255",
+    "calibration_per_shape": 192,
+    "calibration_scope": "training only; front letterbox / side mosaic deployment layout"
+  },
+  "color": {
+    "architecture": "MobileNetV3-Small",
+    "classes": [
+      "RED",
+      "YELLOW",
+      "GREEN"
+    ],
+    "source_pt": "runs/light_overnight_20261019_003952_053241/training/color/weights/best.pt",
+    "source_sha256": "4adb32b267325c4bce8769ef48ad2efc5387fc6325935082082baf8c21cc9d79",
+    "input": "uint8 RGB NHWC 128x128; 8% padded crop; letterbox114; RGB565 source",
+    "rknn_mean": [
+      123.675,
+      116.28,
+      103.53
+    ],
+    "rknn_std": [
+      58.395,
+      57.12,
+      57.375
+    ],
+    "quantization": "w8a8, per-channel, kl_divergence, 256 training crops (64 red/64 yellow/64 green/64 dark)",
+    "no_trained_off_or_non_signal_class": true,
+    "require_same_frame_hsv_agreement": true,
+    "probability": 0.6,
+    "margin": 0.15,
+    "max_rois_per_front_detection": 4,
+    "output_dequantization": "Three INT8 logits dequantized to float on CPU for softmax; not an FP16 model"
+  },
+  "lane": {
+    "model": "small4_pad1_i8.rknn",
+    "changed": false
+  },
+  "toolchain": {
+    "ultralytics_rockchip": "8.3.9",
+    "rknn_toolkit2": "2.3.2"
+  },
+  "models": {
+    "traffic_yolo11n_640x384_i8.rknn": {
+      "sha256": "2cc4e3e83f8d62be4bd1365a2c78bc05596da8c93e3c35de44b7d4084d943d48",
+      "bytes": 4278411,
+      "precision": "INT8"
+    },
+    "traffic_yolo11n_640x640_i8.rknn": {
+      "sha256": "8bdef8664769562e722b12c188e4e3c4e1ff9ddc9df300dd5645fb0c97bf99df",
+      "bytes": 4558027,
+      "precision": "INT8"
+    },
+    "light_rgb_128_i8_kl256.rknn": {
+      "sha256": "ef98d093340806e37e5c62e167897a9e6a673dc1027d3d8d9007399e380ddcaf",
+      "bytes": 2202505,
+      "precision": "INT8"
+    },
+    "small4_pad1_i8.rknn": {
+      "sha256": "fc15733c137b5738b474b5fc3943a999495e9e24059235470a373443c174deb0",
+      "bytes": 916758,
+      "precision": "INT8"
+    }
+  }
+}

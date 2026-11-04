@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "arm64_elf_files": 4,
+  "matched_browser_files": 8,
+  "fpga_existing_design_inputs": 44,
+  "model_contract_hashes_match": true,
+  "live_launcher_dry_run": true,
+  "existing_runtime_started": false,
+  "performance_values_cross_checked": true,
+  "secrets_included": false
+}

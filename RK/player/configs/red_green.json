@@ -1,0 +1,11 @@
+{
+  "scene": "scene_player_red_green_video",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 264,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

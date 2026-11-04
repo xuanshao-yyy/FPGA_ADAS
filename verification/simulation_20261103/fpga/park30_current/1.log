@@ -1,0 +1,41 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:37:50 on Nov 03,2026
+vlog -sv "+define+SIMULATION" "+define+FAST_IO_DELAY" F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\base_x_pcs.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\camera_pixels.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\control_mode.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\control_rx.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ddr_arbiter.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\diag_snapshot.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\dual_packet_mux.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\dual_ram.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\full_buffer.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\full_display.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\hdmi_forward_clock.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\hdmi_pixels.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\i2c_reg16.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\mode_bridge.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ms72xx_pair_init.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ms72xx_rom.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ms72xx_sequencer.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\network_port.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ov5640_init.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\ov5640_rom.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\panorama_line.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\quad_dual_top.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\scale_capture.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\scale_capture_ch2_hold.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\tile_store.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\video_packet_ring.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\video_pll.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\FPGA\project\rtl\video_udp_mac.v F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\SIMULATION\fpga\static_input_delay.sv F:\yolo_for_qiansai\releases\FINAL_SYSTEM_20261103\SIMULATION\fpga\tb_park30.sv 
+-- Compiling module base_x_pcs
+-- Compiling module camera_pixels
+-- Compiling module control_mode
+-- Compiling module control_rx
+-- Compiling module ddr_arbiter
+-- Compiling module diag_snapshot
+-- Compiling module dual_packet_mux
+-- Compiling module dual_ram
+-- Compiling module dual_reset
+-- Compiling module dual_fifo
+-- Compiling module full_buffer
+-- Compiling module full_display
+-- Compiling module hdmi_forward_clock
+-- Compiling module hdmi_pixels
+-- Compiling module i2c_reg16
+-- Compiling module mode_bridge
+-- Compiling module ms72xx_pair_init
+-- Compiling module ms72xx_rom
+-- Compiling module ms72xx_sequencer
+-- Compiling module network_port
+-- Compiling module ov5640_init
+-- Compiling module ov5640_rom
+-- Compiling module panorama_line
+-- Compiling module quad_dual_top
+-- Compiling module scale_capture
+-- Compiling module scale_capture_ch2_hold
+-- Compiling module tile_store
+-- Compiling module video_packet_ring
+-- Compiling module video_pll
+-- Compiling module video_udp_mac
+-- Compiling module GTP_IODELAY
+-- Compiling module tb_park30
+
+Top level modules:
+	quad_dual_top
+	tb_park30
+End time: 17:37:51 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

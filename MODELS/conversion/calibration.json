@@ -1,0 +1,775 @@
+{
+  "selected": 192,
+  "rect": "640x360+12 top/bottom",
+  "square": "half single road letterbox, half three-side mosaic",
+  "sources": [
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd456d9e-edd0d02b.jpg",
+      "sha256": "d3bf2655bba8d7c137fe7a76892804ce93d3710c0c31ade1bd08d0a765b82dce"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcbf051c-04479c4c.jpg",
+      "sha256": "bd3897d622a12da5cee0e0623c2449f553f9c31b0a6df6a9183e437d241f73e4"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc909fb7-f2954efa.jpg",
+      "sha256": "4335eb2905a3ff13b76de6248b8819404a7fc6cb192c23af3b7af67b891c5211"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf18098-9976d593.jpg",
+      "sha256": "cb2f40961c26f64cc67910023cdc89a0c7a2e70c736630bb0de1ce7cd938ad8f"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca151b3-34d4b1fe.jpg",
+      "sha256": "81ad15ffb978299cb371b5431bb13bad67e0739371d78dd6f7df7e6aede9d206"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd20517d-38f56c4d.jpg",
+      "sha256": "8a63cf2badc78b3034590d5b60cc29ae86e1a8b9db5c65c6bcfb516580ce20e9"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc8431a0-eba17235.jpg",
+      "sha256": "3ec24e7b1d860b4de2723ef7a15ebc54713fcf97005075534da622a50b7788fc"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcc4aa0a-8110f66a.jpg",
+      "sha256": "3b2a82aeea01d593de1fb3c6e6cac16e3595591f0dd0a81f5fe22ce582179851"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd961759-aecc96ba.jpg",
+      "sha256": "ffcfba616dfb6f046f7ca6611944a23071c7e0a3a4e4e4bef5d8aaa67cf3c307"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd8a33e0-02c2e6e9.jpg",
+      "sha256": "e46b3704cae71040cf79b150b35524c30e81fab2f111331af4afb0c802e707d7"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd5e9b2c-034a128f.jpg",
+      "sha256": "c10e3e1d5e0c759c3fa7032643b72342b7c08ebca11a91538e3cf7271fafb339"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca4ec46-182b47c9.jpg",
+      "sha256": "e33a111ff7b2073ca7a3a64abbc5ed73f6352c5535b3a4feb0e1ffd2ef161911"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6b1286-b31859d5.jpg",
+      "sha256": "d4ab353606c3df32ce63d1b69d9d4e7cf360f2ac2a8575c7c48ac9c662568783"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcfe0f44-1a6309c5.jpg",
+      "sha256": "6372ccba858f84665dd17ece796ca3b052bac77fa0b324d507c3fdd82dc59157"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47cb67-e2e4ae70.jpg",
+      "sha256": "4b4e4d53621b6f9d22cdc9154c5d3ed81493bc877629ac764659a6961b70fdf0"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd9dfd8-f77645c0.jpg",
+      "sha256": "6211f7e428af6867fccaf132d1b58ebb08a21c500f349f645b769460720c1bbf"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd2aea21-368dae7f.jpg",
+      "sha256": "792af033453d3b49f7f855c856eece347e13051d1127b5ae192bd07e80c2a809"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fda3e95a-e42ee99d.jpg",
+      "sha256": "cd9819633c2e9c5eac5b9d04e5c83151d3111e006615f3cea9be124ec5c75091"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-4375940b.jpg",
+      "sha256": "a497e93405f503caa3392339d9c91540140c787c1122be22718b9f46008ed9a3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9a56df-92d1eb61.jpg",
+      "sha256": "055c05ff004e73f2873d5cbbb9e3924d9eb902c5af3242a6c8520c2a5e92f4ef"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd1b161f-bc3dd5ea.jpg",
+      "sha256": "7ce3b337c2a4e1d5acca7783cb039a4b9fedc8a1e7f504b113d75bea610f99c2"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6a0bfc-eb3efd5f.jpg",
+      "sha256": "fa090dda317330d58b3cf9d2f9a5c40e1e5ed85de60802b82e6183af947def3a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcddae71-5b9a917d.jpg",
+      "sha256": "0c9d0f596ccfeab9867bfb363065c562eac7250bf3660a94dec303e08aa853c9"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd2c0b1f-e63f2611.jpg",
+      "sha256": "116926d7568d18c7c1366cf03cd2371fbcc594e7bd48f061f1857a8138bf9096"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd281b99-97d3a00c.jpg",
+      "sha256": "d8972eec22eadba398e776ccfc7239205a0e5384d90b9e04ae0611958915f804"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47f81b-83af43fb.jpg",
+      "sha256": "9390d60fe48e36c6f171fa389a84bb08aa9b4d7ec299825d358a126ef2d3c17b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc1173c0-1aec2096.jpg",
+      "sha256": "49e32648a973a5f2050be2bcb4bccd30a6a1eca134d90c71e688299e688620e5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdac0598-0c3dde08.jpg",
+      "sha256": "0734713893be8aacc8d185a02e7c7e34937ec91e9536fb37ae358f9c30a75797"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc765f57-6a464f10.jpg",
+      "sha256": "6a131e674ced3f322594232e0958ed84400b50bc595b34c245a4301a1ec68823"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6347dc-c784b9d2.jpg",
+      "sha256": "96411a03b2ab046373377c01151ab7bee94118525c037529e75963357b61b7e8"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce81935-52ae1f3a.jpg",
+      "sha256": "8eb6dea4dec2a816699d664763310e134f51a1edcfd8ed8e45caec405edab7d5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcac4f75-99c9e338.jpg",
+      "sha256": "c01fba2a106190f3ef9bd6b532e2d596b684e3cebc16b0e5d9b12a6ccfa9a0bc"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd2f2d25-04cca5b4.jpg",
+      "sha256": "758d006697c9811d06fecabe735e738f18c9120ccd0fdab800eccb7406de017d"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcca2dae-38df2591.jpg",
+      "sha256": "dcbb7b4eaadfe72383793f589da61fd5d7e6bc1154b103351210ae987486568f"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf2aaa8-d6c405c1.jpg",
+      "sha256": "f29945ffff494247fecbad24dd5b9fc8c5d315d7614163c06ae2d8b5b5254547"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd0c3f47-23cda31f.jpg",
+      "sha256": "13c0972b953a751734fcd9a548d1d85069162a9cf8e7e8794dab53d4462b284c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9a56df-657179d2.jpg",
+      "sha256": "9a5a835901c8e6b660ec200174b481c8da35835b044c9eb9d971f3adc41eb913"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fccaf737-219a7f4c.jpg",
+      "sha256": "6b98013b47312722502cd13e611cba8f60c0addd47a3623897153e4371b15298"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd62db30-b1a89509.jpg",
+      "sha256": "1f2c0440727db6bdc3d8ed6ccb08470095824544e0e2ac1eea2a02d3fec5ca5d"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-721566d4.jpg",
+      "sha256": "131fc07ec50fcb1b05544aa32335dead57950d276bd3037db3c2b0256dfd88e0"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-0df1d363.jpg",
+      "sha256": "66e7edc11d4c43e99f9f0bb0236401e38b269d5dd0ac4f7b92cb476fa763c59b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd834e5f-866620b2.jpg",
+      "sha256": "69809d7f397d6b0197c21111b49a73a32516896e7f5ffeb726c0aace4b05889b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd68cd59-61c6ebc3.jpg",
+      "sha256": "5a483b37ae647c5e263f3b292cecc3b2611109e0c382cb20dd07b962805cf944"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd3dc6b-832307c4.jpg",
+      "sha256": "c69fb00bb41345fd96714770477a147c9117b461028f36856e8247e2ef1fb853"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9a8c57-f36aa155.jpg",
+      "sha256": "4b71ecf975ac1ac0ae1e746d540347cb9f729445f1dc024d13e33935beca9e58"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc2358e2-c404ecf7.jpg",
+      "sha256": "2b63ee9046af09289e1260bb874dd75e5cca980153ad184b8804f7bd2fd43719"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcbda8d0-5d758e8a.jpg",
+      "sha256": "5148cccedbf8e9a94b8fd223272c72c1443602c2bc18a53c20414d443b8d7d7c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd2c0b1f-5dc04064.jpg",
+      "sha256": "46886da3066dfe890eec26d140dd6c85b8c1748275b4409a4a7e50e7da182242"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcbb2545-edc617b8.jpg",
+      "sha256": "b6a0640e76ca20fa3415caa0d8e74b5fe1e7deabf3bc59be35e84face4b99b60"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-58b09757.jpg",
+      "sha256": "2017fbc915d122eb338e5c3012ee628c6a3409ace74923104451209f7eaf5b6b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd83d502-ba865124.jpg",
+      "sha256": "4b0a547c80f9ddbebca5a7397e767d09f6f9d0fb8835734e729362fe1f493a0b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc889d78-67d1b6ba.jpg",
+      "sha256": "42b730738e2a86a42550868f83cda17049334dec25a6af30aeeded2d15bddc79"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca56936-28538873.jpg",
+      "sha256": "cacdc0c3e635b055862c54c757b1721738479868fda7e7c3090674d08dcbfb3c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-0d6322e0.jpg",
+      "sha256": "4051d8f2b6116ee19368c5e82e8964d498f6d56590e66f8ed6f7aef842b80d4d"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc5233bc-cc39c555.jpg",
+      "sha256": "674bb66ec4487111bc20314bdd3d43fd3d321bd829be5b8a97cde7b2cdb8a00a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc65864b-58d77475.jpg",
+      "sha256": "59ae8d84d6d3c7a6fcc5dc70cab76c5c59a1afb5926f7a2eb8d9bf6605ef9f12"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf6c501-67678cee.jpg",
+      "sha256": "38599524ff7438eda500777eb8e73aca3b31d0a187e32e9c55b3daca6bccd1e2"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc0253c5-bf9e4058.jpg",
+      "sha256": "603a3b6feaf2a408b7b623c259fa63378ec6bdbc966e44ef329d5ff65e810fba"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9f594a-324bcd7d.jpg",
+      "sha256": "0e6ccb9f7332ba6b4c4a06934858b793c4c654b630d66c7b5fb0301366260e9d"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc748e31-8c99fa62.jpg",
+      "sha256": "1ba4dcda4a2d7f2b3ae23971253ecec622ce3b1d99d27ae51c7a191f5663cd44"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc9070a0-48d35447.jpg",
+      "sha256": "02331c12f6c0816f394d792fe24937ab8db76b02718baf198c3144f695019d56"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd83d502-44b29756.jpg",
+      "sha256": "52be08d754e40255e372b3fd8b18a9bfc6698ba62c308e84f2ab503ce3c1afb6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fceead05-0392078a.jpg",
+      "sha256": "8f6e4b8ede0e6dd78215ec76b28a6deb6ec0731e987b3fd048c44b8d92a694ae"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-c52f1106.jpg",
+      "sha256": "055d519b79c5bc8e0fff206b376b4914674773e1001f2a27b9617b59622300c1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcda00f1-cdff82b7.jpg",
+      "sha256": "cd7bc9ce8bc0b86f63129b3a9897fc67e8140aac41bfcdcd502df3009c009551"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd289d94-972c417f.jpg",
+      "sha256": "48c46da3cdee599adf53f5fa84d79e871d2cc481230319268d2716fb9ebbc7b1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd0d22e-ba552940.jpg",
+      "sha256": "eefcf73c896b5d83f190609d5b5a6cb8f5824e7e3f5b14c096151f725c993e32"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca30556-e7270f5b.jpg",
+      "sha256": "66cfa84b0808ff5626fe47d354479697a3a23c6b86263cbc4deba1176ee8da65"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcee722a-91a207ec.jpg",
+      "sha256": "3d79024b100d7dc5302ab963e5ad700f730c5d74c399d7ce7e812edfebf8918a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc5233bc-ef3b2f1f.jpg",
+      "sha256": "7702a46f9a433df9cd7c41e27762821a01806dbacaa0c9e76b50c07a66d0e0ab"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc5233bc-c13c477c.jpg",
+      "sha256": "f2fa32dd3d4fbf33d0015169edd1a28b564910fd0cd89330feae0b9c3a66a363"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc698fe0-e8779537.jpg",
+      "sha256": "5348221fc7aa290f7b0de53c530dfab73583319611a93cbb26863340fa16a4b4"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd0a30f4-cfac3906.jpg",
+      "sha256": "f4844044c9ad9a5f95432e20ff6658be30470487d92db0cc9a992b77d90b7234"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-bffdb6eb.jpg",
+      "sha256": "3183adf0a5658bf908888d46d0b78023a8110a29e5aef8088c4b8188bdfabb2f"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd3dc6b-c6722472.jpg",
+      "sha256": "5457cdd595dcd0491a4405fdaaf9d8c8a675e91b1f92ac0213d47ef4da0ad603"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc06994f-70f07efa.jpg",
+      "sha256": "63df61be7c0d084975e7c411fd71b3fc0b4e1d3913743b0ee7576b8c76c830ce"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca23989-50d07b7b.jpg",
+      "sha256": "19ef71156712166156b3f2de8afe4b6a7ed3ddee71c7a32ef3663144de922ff1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc720e33-2a8dbd45.jpg",
+      "sha256": "7bc85c94f9695ca0eca11199c02fea731bb2712aacf24f2a82b8fa86f45ef313"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd448f95-be95ddda.jpg",
+      "sha256": "c6bbe6a3128020934b63b558f52a5864fab3e583d40001697c3b03383b498271"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd046b1f-0e698d0a.jpg",
+      "sha256": "6309c5a5ebe3eb376b5df4bd6b5dbc9e446c172940f6035cd6af4e4d72be27d6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca00539-08072fc4.jpg",
+      "sha256": "e262a2ffb4d87d885b6b74128d857856abe36464ebe8ece67b4de85c6525d57e"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd5e014e-139f1bac.jpg",
+      "sha256": "313048a96d529b8651a0af1ba07618c5a6fb527adae1ff445796ba471c531608"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd10eed-becfdb8c.jpg",
+      "sha256": "aa42cb664a986bd6c8e28303574d107e917d4e2ea40247abb97ad58381c3ee61"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd42c3de-76f032d6.jpg",
+      "sha256": "f844fe071194e6e48be34327a39ee765ac16ade889319d82c26ef2e4fbd7b07c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcfe0f44-a8320a65.jpg",
+      "sha256": "943aa1aa79f1dc0b68232ec36885da4794026c580b94956016b91734f7c7eb4a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fda1aecd-97b7ff96.jpg",
+      "sha256": "2d8c2999122924702ef7dc0801dd56e2760221f42764adad07d89ababf5c4482"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf362be-b7878e27.jpg",
+      "sha256": "44e4fb4d5c87f02fde3c28a4d189414f0f021aefd4b2cf1735205c400ad84c9b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd83d502-89293c44.jpg",
+      "sha256": "abf04660cf2c6b2136e014af0b1a2d09f5d0e02820ce341b72e2b64e836439f5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc765f57-c9ab735c.jpg",
+      "sha256": "e2aa857d7cb29f18a92686546025273bbb56c4291d48596e18619ea3580a0c3b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb05876-f218c771.jpg",
+      "sha256": "e970c87af01519a5aa021e7cebcf7d6db2606283db7593ae50a6486fdaa4c8d5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd22d3cc-a2e0e00b.jpg",
+      "sha256": "36d11024fd88a9c2fc353dca406d416b8583d949c1b987c69a18b801ee6ebca6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc65509d-58a93e23.jpg",
+      "sha256": "aaecb34d23a2f19173db9095f8f0ab2d5e764d6b7b7692fe6a7ad5313484c668"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcc4aa0a-ff7bf5db.jpg",
+      "sha256": "17afd4a9e5b4635d89e65177380310c47965afcc32803df4cc972ee61c85fa14"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd55e851-f7a85087.jpg",
+      "sha256": "c7f41f2437256ac348b0c9948fbf23ee7d9dbd034e16961d1146efa9fc306e1c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc60ee97-e030b7c0.jpg",
+      "sha256": "33488f468b6f93c8d8534901ac93eca8d5efb8f5e6423cc1910c86c6b1dbdcbf"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd0939da-ebc9cc30.jpg",
+      "sha256": "cf4657e2e6954f9beebc797a5ff16c8acfa3f26a910f0c3a93e311d21dc5d9cf"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca4ec46-e68c34da.jpg",
+      "sha256": "e46e1dc6b830c75cb8a292ad98a8000caa12549a0d5d2fd098ffd2074eaae840"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd5e2f7-e623d163.jpg",
+      "sha256": "136bfbbc43c0df6adcda193169a97949eef987814ae40750a1f130ed2e4d14c6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb12c04-192742f0.jpg",
+      "sha256": "d6567898a61aadb7e880e229d972e3cbcb41176f84f069e9656dec89748191b3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb23892-1dbc2342.jpg",
+      "sha256": "5cbd91cffd4031979f4eec98debaf6635bfe35106235f328411cb5976d03c218"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce81935-e204e6ab.jpg",
+      "sha256": "00c189a112f9283855f2b391297a8721e7f81acf01b288f672d1fb3b0cb4634d"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdaa89bf-ee246ee5.jpg",
+      "sha256": "99e6cd25ed54aa9745f7f598376b9fe916089902da4a4763430cd91d64e5ef8b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc78d099-f86249a3.jpg",
+      "sha256": "117602810db6ab275eb4968dfdc52f665f5a453364b3713be6745ce9fb3f08a4"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf6c501-85d1f7af.jpg",
+      "sha256": "65cf3c96a6ff46cc1eb5581b019cb001475aae26a129499741a81a75ca30787a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc89ecff-6f049479.jpg",
+      "sha256": "0810f65f57d975063d2becd225ac89ad493d55923ba5d596b831a5dfce699f00"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca00539-379627e3.jpg",
+      "sha256": "76bb511a8fcad1042e5882a7e7562ade04fcfbcd1328624de78d95b1a95f9e7b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce9f165-d05d6fa6.jpg",
+      "sha256": "e336c7ad3046cfedd283968e6e7035d00cff33bc9ac8e678c68198d7a81f0cda"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47cb67-8c04162d.jpg",
+      "sha256": "cc3972101daef3cd7e51913d57dd4924de000b308124ac78edbba94dd6d65eb9"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc695359-45ca3507.jpg",
+      "sha256": "a556f529d38b99e86cf0960908496fc098477650bf8973341e78487eafa335e9"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf18098-940e49c4.jpg",
+      "sha256": "9bbce43f6a36caca81aa8119ca8559aab22eb3afdf5674a2e4ef101056ab139b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcfe0f44-386856fe.jpg",
+      "sha256": "f9804978d36e6b52236a7980ace0b43d5ce50b27b12b0d19bbd5ffcefccb15d3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc307aff-e74a87f2.jpg",
+      "sha256": "aaf8ee98981a00c2d6ecc0cfcb369c232fb13554970e2015e245a8c38c58cea7"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcafd2a0-541a1b36.jpg",
+      "sha256": "2f37a5d749ebb28936fc5f86fb871cf6a8737b98287b6182c5af611752024e05"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47f81b-8a3cf9d6.jpg",
+      "sha256": "d10223ac6acf6dc70db773580433b760b8fc73b45f1e8ac04eaeb13fd3053512"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6b78f9-a15bd269.jpg",
+      "sha256": "de232cf969de7fd618f1bb44385f57bb5389bc8597d419d492ba1142496ffa72"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb12c04-f339a4a0.jpg",
+      "sha256": "dbe7ae1795b0377b297c7e1cc8a473cee46a673b78070222fb90641a3f930894"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcd10eed-ad9adbce.jpg",
+      "sha256": "9332037c3696d21081ea728bbdf16c211dce0007ff6e8f2e80f6aafb8b9c95d6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcddae71-40751b87.jpg",
+      "sha256": "809360e41d030e9d6a2d674d78e115885ed8bf94071de9f71a016095237aaa84"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca30556-4dbefdd4.jpg",
+      "sha256": "d3c4f345b7ed47c7b18780fe7bc911f55a728466f3512e0ee0ae70b9a630a573"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6f8cd4-ea2ea902.jpg",
+      "sha256": "c36d1e2c2a99f4dab2de732588841c9ee4bb71a202939cb91ae8b776c75c79f2"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcb40695-65a4ae95.jpg",
+      "sha256": "3d12cb7a782d135ec9735544b2bc0c3f0175e570fd974ef6f7f303d0d4f7470a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd110443-3e3b93d2.jpg",
+      "sha256": "055070d551f61e206bb237c6e273076fd0f1d03df49daed8c25e9de625f55579"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb01e04-f8399a22.jpg",
+      "sha256": "52489ff373e974ac71b862a6d1c2156172d999a820e5ce72ced1b0ba6762dc89"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb12c04-e28a8c0c.jpg",
+      "sha256": "5d0efd57d06f4448e07c78cb8d429569135a3423f35a9e6d24b3ed0cf3d0550a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc698fe0-df3d066b.jpg",
+      "sha256": "c93ba28d7123cc8976f4c6bb286732abde23f7910d30f13f695aa6ae54a44e25"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-1ebd0003.jpg",
+      "sha256": "1d69cbf5576d8d0b558d89d0a09db705651c2d258e539f7a9f077822493bcd4e"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcee722a-e45fc621.jpg",
+      "sha256": "15cc07864656247c9a75d5579c4c4a7a7de4b163e2065ad4b88864bb0e4cb6b1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca31a5c-7012caaf.jpg",
+      "sha256": "aa615c5a7c2ed35ecba02974e8b5f0d9b02e2aabdf11e7417b8865c8814e2aa3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcec8154-56683525.jpg",
+      "sha256": "cf5d28f61274469bd1d829e942c50475a8db92d7739402b9bc1be0560bb4d2ab"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc85afbb-704db311.jpg",
+      "sha256": "774d44ef8883770a39a4c71a3c000c89c8dcf2249b823207a5f413a5e901c754"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd56e07d-72232a97.jpg",
+      "sha256": "cecfd8419331e583926c6cf1bceadafd4a1dae3ca85ce4d0cf8d568be2673209"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca90061-ea1ce342.jpg",
+      "sha256": "eea7e77c8093c715f31e0958bcdea0278f360847dec94e8df1a2498a2a1f00c7"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc307aff-ca7c124c.jpg",
+      "sha256": "0f142a206a2a72840403d5724d3edb1c32199acfb3a4a2ec347daec89afb8226"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc0253c5-754ec770.jpg",
+      "sha256": "bf9e9da889d5438abe9f4e82fabb7aa04fcaa4c12fa62dc04d2b27c89f13c1da"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fda94bbf-97ad2d71.jpg",
+      "sha256": "1666074247d003c0ab4ce4bb31c02d1ceb73f380838097710ce71fff5830a7fe"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd58f326-6c98f9fb.jpg",
+      "sha256": "2cb586979b22eccce59594d6e9a7682c7872881af1d0605d67f024ad47a83622"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca96bc2-78df61c4.jpg",
+      "sha256": "946b52f813775d206de9061d8e6d539fe10a258f1ac3f07f5ddd7a0cc4d374b1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcb793d1-805162c1.jpg",
+      "sha256": "ed4cbc09cb785089e07c1cb5ce75d68864cea29819d4bd36f64f7155aeac261b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47cb67-7bf06eb6.jpg",
+      "sha256": "b196cef558736e6302aa116df19a07adce2509b530b206736e44748f14180be6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce235bc-2523b6b1.jpg",
+      "sha256": "e9459fbff634b44cda605606ae5a32d6db629bef5ae2dfedc7d8f83cd18c8ae4"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcdc1b2c-b236df95.jpg",
+      "sha256": "0c7787bb3444c9537934e3e8a32c1c1bbc71a94ec4d9e7cdb7b175da680f51e3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce59e17-f4357a71.jpg",
+      "sha256": "231bb6d435ca431eafa001d7ca320b7bb66aa96a65525a6c94a19900b6d134f7"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd041407-77509f5a.jpg",
+      "sha256": "eb73f6da2b47c3ef4ed2539ee0b9b3b222d937a1670727efcceaafd1885b401b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd78cdeb-1dbec6bb.jpg",
+      "sha256": "60387ae48879de357bbb809f2ba7523ae41c9a137e2ca222e7498949fa7528c3"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd68cd59-7d10d87d.jpg",
+      "sha256": "16b11ceae2cdc21df6e8dfc6775ce04f0a6390ec82cdc6280ece752aee12aa9b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fda535f4-b1d36ae2.jpg",
+      "sha256": "70c70a62ad33fb157bb84ab214cb52118f247741c67a1d8746c0a4e5135d8585"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd195633-4c3f495d.jpg",
+      "sha256": "24d77e8ac2a9be0e1bbc03301f890bcbd3b2a94e56028223451c3ea96dbc14fd"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc5233bc-74ade823.jpg",
+      "sha256": "479f822f2b72df05ef694b9d88aa2de5d642775fda2fb4496d6dbadd406af2e6"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fca8c5a0-739c8414.jpg",
+      "sha256": "16519cedbd37b11acd239588992a6c779e2bd228bae30b9d8d29a2ea3d49b9a5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc07772f-9aea45f5.jpg",
+      "sha256": "464b3509fc3d221aa047107ed99179e76eae78040342f78451f19ab7bf3bff17"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fccd722e-9753bffb.jpg",
+      "sha256": "155b1280a086f034e9cfc98c5747653ac62610e47d33b434caa92e9646c3c381"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd00b412-1d0274e7.jpg",
+      "sha256": "5156550edb17cd08cb74b3ce784d7370a7b21d903b3f84cb660abc0b8588bd98"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcbc253b-5ae2d88a.jpg",
+      "sha256": "ed4151a69b21611a60a091b9e348a7a9f4f5b799e71c2139e396732277eb283a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcc4aa0a-a46de66e.jpg",
+      "sha256": "98cc9b7b6c0e52223029f08fb48804ed4f3bbf690ff29ea2d8a2af137194d4d1"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc307aff-891dcb47.jpg",
+      "sha256": "021b2879875946f218cc2944077d343c1fdd129d5658631ad337e93f276ff993"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcb43c99-0a2c2971.jpg",
+      "sha256": "6b0d242e8f35209c453d143bd5b1cdfe3a84f1f73d5f43a4d4e45e92200a8d2c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc0624cf-e60c4dcf.jpg",
+      "sha256": "70215ab55bd0e14910017b3fed601931eab8610fd13d50d39194d9356c1ba81b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd13c13b-3f52c830.jpg",
+      "sha256": "bd78a1c3532cb1db086bc36df8a5ae0a727fddd793f332619ae086989d3e7b2c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc58f8a0-c0b96b9c.jpg",
+      "sha256": "b688783ce31e0b2a153168d2bb602259e844dea5b0a472655c7b522cb51069da"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd0346a5-a68ca9cd.jpg",
+      "sha256": "fccdb663b90978809d496e83a3439f63dee76725211ef27182edf19997da2d83"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcea45c2-9c6546d5.jpg",
+      "sha256": "73920c448a559d4fbf8aa72adf641860065c5c363ba9f40837e937f877b49581"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc528386-d4f3929b.jpg",
+      "sha256": "6dd2b3ebc5f3117ba0127f9e2dd2784b78497a64409c2ebf0775d93b8f8cd2ed"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd8e7172-e4e22191.jpg",
+      "sha256": "ab320f56a738a62bf7c5af020fd97e821631d21868150f86282cd1d5c9d8630c"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fce96dbd-133e77a1.jpg",
+      "sha256": "73ac4e646d633d47b71839687c33a75681420d613f6dd2210b814bf21f637ea0"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47f81b-47f367b9.jpg",
+      "sha256": "7b2b8e32742c02bb83e90a20a8f203fa52937d79736850c10d76a3ad059a3346"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf6c501-e11c50cf.jpg",
+      "sha256": "738159541be5d71c00b911756d171003dc473d4fb7adb6b0f77f4f38accea056"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd72cd8b-6354f991.jpg",
+      "sha256": "21cea907324742b7ff8f3f4ea9e23126b5cccad148ff232a95e6a8f4491db6ed"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc467ff8-b4397159.jpg",
+      "sha256": "327b3dd3925123f809ef65d2619112a5fa2af4865ab2bb450bfe7df7839f3f17"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd68cd59-0c93f417.jpg",
+      "sha256": "dd868f33095b9788aadefb3a647c9362504dfb87e5e851a92eebacf01d5a6898"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc467ff8-6820c1f6.jpg",
+      "sha256": "74c5db569f2b94b622f265856b605a68ca120b6f209d7297b724ddd0ebd18d96"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcc138d1-ece477e1.jpg",
+      "sha256": "c30448fd47d4b84100742635f7ceb3a46c2d42826115bb1bd7fbbc1f17a2b342"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd45a8e3-0bf185b8.jpg",
+      "sha256": "d08ee93472553707614f3f55249f5f9c88aa509b3cda26f057c4531b59f0bd22"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd6bd828-63ffa217.jpg",
+      "sha256": "9c37bc3a64596d69641ca1b6bbf267baa43b9be9ae8db41580c7b0a966961b7a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb23892-929ab524.jpg",
+      "sha256": "7bb4343c8f90763148448c35e9a7a8b037a352925c65263847ed6aa414824338"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd2582a8-7ded6cfd.jpg",
+      "sha256": "9c79ccfa38f7c20ebda7662228ec1490af955552c8221dec2202f82fca0273ef"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9c6db5-410e0fe9.jpg",
+      "sha256": "f855e32d1c5166a152dcfebbb45cf448c4c5aebd95bd795e6c04090ca4306de5"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd68cd59-550747c5.jpg",
+      "sha256": "faf3528f4c29436936ee591c08ed5a5e21c8be211a984a81d8be75ae6c22a5a7"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd1b161f-70f3f14b.jpg",
+      "sha256": "ca36adc8ebfe986172015553025382426ddc3fdf2efbd6ddb8543238eae23501"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fdb6baaf-3d897136.jpg",
+      "sha256": "a846036f13457b7b49b79812594f9ce878292f088fc1757b0cc535ce75969ea9"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd124a6d-0da95846.jpg",
+      "sha256": "9f38fd11039bd5a564fa43d2d80198f3e2705b27ca0b8cc6e50dfe4113c07866"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc307aff-725b57be.jpg",
+      "sha256": "9039812957e09eae6cb322e168aebe0b623a98145ba47c1ad402d5fc9a326bcb"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcf6e601-2e9eeee9.jpg",
+      "sha256": "882768a4ebe34b02b29156d3319ab4469e82543fa4050b5be7c0538d7fb3f656"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd605786-29e263e3.jpg",
+      "sha256": "e89cec3daeff09aa9f52dcfaec5bd851fd2b2a08862075bbed9badcb6bfcffe8"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcdc1b2c-ead78c50.jpg",
+      "sha256": "6bcde2edb0e16114cf62fd55b48c057e801479e8e5921152490ca25c95106f6b"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd20bb34-293ff0b3.jpg",
+      "sha256": "d3fd242fbf3000412e4ebd11c60263708b5c94de07c2df3b441dc5b7ebd9687f"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fd9a8c57-412becfe.jpg",
+      "sha256": "513a1a6c1e6f0591ad806124ce69951034d7d568576b2e4caf9ef4b2f93ad6df"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcbfb067-2f6ea011.jpg",
+      "sha256": "bb93d36b286e8dda38eabac872a3aaa7499f1d384fc4ea1752c6fa4f2493e923"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc47f81b-91aa2764.jpg",
+      "sha256": "5168b6d45ecb36a41ea23915a047346ea090b8d0d80b3137bea16e1ca8495441"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc67fc38-435517da.jpg",
+      "sha256": "10e6eecfaeeb015e1fb38967a34ae93a05210ce210018d80b56b319e2292f32a"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fda535f4-cace0713.jpg",
+      "sha256": "5c86509eb801a7cbc8b43e32f1ae45337f1a076bbf194c850991d9fb197ba00f"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fc916487-b89a7d4b.jpg",
+      "sha256": "3a99f964e0f87b3ed41113e0c9c454fcdffd44b40a13fa1c49e87c10e6354e91"
+    },
+    {
+      "source": "C:\\Users\\rain\\Desktop\\rk_hyperlpr\\traffic\\cal\\fcfe0f44-3f29c792.jpg",
+      "sha256": "bceedfa9e7e67459d557145f6f36b6c8e96a1cb45f89583e81577425c5dc663f"
+    }
+  ]
+}

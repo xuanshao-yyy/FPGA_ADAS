@@ -1,0 +1,19 @@
+{
+  "fps": 30.071419621601304,
+  "presented_frames": 360,
+  "window_ms": 11971.5,
+  "callbacks": 361,
+  "video_width": 1280,
+  "video_height": 720,
+  "playback_rate_min": 1,
+  "playback_rate_max": 1.04,
+  "quality": {
+    "total": 440,
+    "dropped": 0
+  },
+  "buffer_text": "播放缓冲 0.12 s",
+  "ui_fps_text": "网页呈现 30.3 FPS",
+  "status": "PASS",
+  "page_errors": [],
+  "scope": "One PC headless Chrome 12-second presented-frame sample; not all clients or long-run guarantee."
+}

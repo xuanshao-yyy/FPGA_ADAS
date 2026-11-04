@@ -1,0 +1,11 @@
+{
+  "exact_rk_core_files": 136,
+  "python_ast_files": 91,
+  "algorithms_modified": false,
+  "training_started": false,
+  "new_board_measurement": false,
+  "live_board_connection": "SSH timeout on 2026-11-03",
+  "tokens_or_runtime_logs_included": false,
+  "new_fpga_simulations_passed": 3,
+  "new_host_cpp_logic_tests_passed": 3
+}

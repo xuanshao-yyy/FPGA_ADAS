@@ -1,0 +1,12 @@
+path: F:/yolo_for_qiansai/datasets/traffic_light_v1
+train: images/s2tld_train
+val: images/s2tld_val
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bicycle
+  6: motorcycle
+  7: traffic_light

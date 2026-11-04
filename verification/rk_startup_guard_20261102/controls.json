@@ -1,0 +1,11 @@
+{
+  "status": "PASS_NATIVE_CONTROLS",
+  "audio_state_pixels_changed_then_restored": true,
+  "go_request_recorded": true,
+  "physical_audibility_tested": false,
+  "sound_hashes": [
+    "b033e7d706f192c1974f791ab32c7bb5c0c2b20dd2f69d49d572f4d557810c20",
+    "fdc85b8d42d6b9341ac4483058220241c60120686dc411069b9a753e3aefed47",
+    "b033e7d706f192c1974f791ab32c7bb5c0c2b20dd2f69d49d572f4d557810c20"
+  ]
+}

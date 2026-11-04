@@ -1,0 +1,21 @@
+{
+  "build_label": "startup_sound_go2",
+  "source_archive_sha256": "9b8f5cb12e8572fe8f92c0830578c66654627a1c076707d0c4fbdc389184a8dc",
+  "arm_qemu_tests_passed": 47,
+  "x11_xft_fixture": "PASS native X11: 36 button actions at 3 sizes; pressed border pixels, automatic status/RECHECK/SCENE, release-only, drag-off, video ROI separation and cancellation. No RK/GStreamer/NPU validation.\nPASS Xft dashboard: Chinese font, four sizes, panel/video separation, eight release-only lane clicks, drag-off cancellation, unchanged/partial-card redraw and immediate restrictions. Fixture states only; no accuracy or NPU validation.\n",
+  "binary_sha256": "817b33b72f8992d8017ac47449620cdd2ca750aab79a3c8a53b86399798c02d7",
+  "models_changed": false,
+  "scheduler_changed": false,
+  "physical_board_tested": false,
+  "scope": "Software geometry/semantics and Xft fixture only; no physical visibility, accuracy or sustained FPS acceptance.",
+  "panorama_binary_sha256": "4330a77d76e0d0cba25b1eb89209fea1396c1f6729f3e7342dc9f8562d814df0",
+  "mode_hub_sha256": "b68432f6f67a2890e9e078a5e7f45916be875ba1e2bee06c3ea2013eeacce193",
+  "fpga_changed": false,
+  "board_tested": false,
+  "camera_roles": {
+    "front": 0,
+    "left": 2,
+    "right": 1,
+    "rear": 3
+  }
+}

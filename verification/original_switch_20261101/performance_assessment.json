@@ -1,0 +1,34 @@
+{
+  "status": "FINITE_SAMPLE; STRICT_ZERO_INCREASE_NOT_VERIFIED",
+  "scope": "Nine sequential matched hardware-sink samples, three per mode. One prerecorded clip repeated for four channels, existing YOLOv8n+HSV/Small4, same loop_frames=240 scene config, product bridge enabled in every run with original near/risk parameters. Product HTTP supervisor excluded from both sides. Finite performance sample; not accuracy, real-camera independence, physical visibility or proof of zero increase for every workload.",
+  "process_cpu_one_core_percentage_point_delta": {
+    "original": 0.7453750000000099,
+    "front": 1.4448749999999961
+  },
+  "medians": {
+    "baseline": {
+      "process_cpu_one_core_pct": 82.182125,
+      "machine_cpu_pct": 43.77275,
+      "display_fps": 29.996125,
+      "front_ai_hz": 14.076,
+      "rga_pack_ms": 2.38977
+    },
+    "original": {
+      "process_cpu_one_core_pct": 82.92750000000001,
+      "machine_cpu_pct": 43.65675,
+      "display_fps": 30.002375,
+      "front_ai_hz": 14.06075,
+      "rga_pack_ms": 2.410091125
+    },
+    "front": {
+      "process_cpu_one_core_pct": 83.627,
+      "machine_cpu_pct": 44.806125,
+      "display_fps": 30.000875,
+      "front_ai_hz": 14.099125,
+      "rga_pack_ms": 2.505437875
+    }
+  },
+  "display_skipped_all_samples": 0,
+  "strict_zero_increase_verified": false,
+  "reason": "Both UI modes are physically accepted; CPU medians are slightly above baseline in this second sample. Three runs per mode are insufficient to prove zero increase. No new inference, video conversion or per-frame repaint; do not call CPU acceptance complete."
+}

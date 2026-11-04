@@ -1,0 +1,12 @@
+{
+  "roi": [0.08, 0.50, 0.92, 0.50, 0.995, 0.94, 0.005, 0.94],
+  "ego_x": 0.5,
+  "reference_y": 0.86,
+  "ransac_pixels": 6,
+  "min_span_pixels": 44,
+  "ema_alpha": 0.6,
+  "temporal_filter": "ema",
+  "max_gap_seconds": 0.75,
+  "min_class_probability": 0.5,
+  "appearance_styles": 1
+}

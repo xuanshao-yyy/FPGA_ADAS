@@ -1,0 +1,53 @@
+{
+  "version": "current-system-20261029-rc5",
+  "target": "rk3568",
+  "source_commit": "d4bd9b0",
+  "application_classes": [
+    "person",
+    "rider",
+    "car",
+    "bus",
+    "truck",
+    "bicycle",
+    "motorcycle",
+    "traffic_light"
+  ],
+  "detector": {
+    "architecture": "YOLOv8n",
+    "variant": "A",
+    "source_class_channels": 8,
+    "front_input": [
+      640,
+      384
+    ],
+    "mosaic_input": [
+      640,
+      640
+    ]
+  },
+  "color": {
+    "method": "HSV",
+    "rgb_classifier_enabled": false
+  },
+  "lane": {
+    "model": "small4_pad1_i8.rknn"
+  },
+  "models": {
+    "small4_pad1_i8.rknn": {
+      "bytes": 916758,
+      "sha256": "fc15733c137b5738b474b5fc3943a999495e9e24059235470a373443c174deb0",
+      "precision": "INT8"
+    },
+    "yolov8n_bdd8_640x384_i8.rknn": {
+      "bytes": 4376465,
+      "sha256": "ca17e893988a698ccf963029391fcd43b7298f1d460bac1c817e080e2c05a1d7",
+      "precision": "INT8"
+    },
+    "yolov8n_bdd8_i8.rknn": {
+      "bytes": 4642257,
+      "sha256": "ad5b65d69e20eb85e3a57223c5852972e3e606836e371f559c73dc93a48c671b",
+      "precision": "INT8"
+    }
+  },
+  "parking_model_sha256": "ca17e893988a698ccf963029391fcd43b7298f1d460bac1c817e080e2c05a1d7"
+}

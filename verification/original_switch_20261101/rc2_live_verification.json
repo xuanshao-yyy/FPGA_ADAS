@@ -1,0 +1,612 @@
+{
+  "status": "PASS_KEY_AND_BRIDGE",
+  "binary_sha256": "e32e34fd8b52ab595540f7fde626cca50d55552d1c4200374bcb402e6d249207",
+  "pid": 25454,
+  "default_layout_left": "original",
+  "three_round_trip_key_tests": [
+    {
+      "cycle": 0,
+      "layout": "front",
+      "exposed_pixels": [
+        {
+          "x": 50,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 1200,
+          "y": 225,
+          "pixel": "0x10203"
+        }
+      ]
+    },
+    {
+      "cycle": 0,
+      "layout": "original",
+      "exposed_pixels": [
+        {
+          "x": 800,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 800,
+          "y": 260,
+          "pixel": "0x10203"
+        }
+      ]
+    },
+    {
+      "cycle": 1,
+      "layout": "front",
+      "exposed_pixels": [
+        {
+          "x": 50,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 1200,
+          "y": 225,
+          "pixel": "0x10203"
+        }
+      ]
+    },
+    {
+      "cycle": 1,
+      "layout": "original",
+      "exposed_pixels": [
+        {
+          "x": 800,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 800,
+          "y": 260,
+          "pixel": "0x10203"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "layout": "front",
+      "exposed_pixels": [
+        {
+          "x": 50,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 1200,
+          "y": 225,
+          "pixel": "0x10203"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "layout": "original",
+      "exposed_pixels": [
+        {
+          "x": 800,
+          "y": 80,
+          "pixel": "0x10203"
+        },
+        {
+          "x": 800,
+          "y": 260,
+          "pixel": "0x10203"
+        }
+      ]
+    }
+  ],
+  "bridge_samples": [
+    {
+      "monotonic_s": 10654.684096376,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.498084049359397,
+          "received_s": 10654.580492905,
+          "rx_frame_id": "3927",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 3.9995055611250057,
+          "received_s": 10654.593684004,
+          "rx_frame_id": "317997",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 3.9995055611250057,
+          "received_s": 10654.594803436,
+          "rx_frame_id": "317997",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 3.9995055611250057,
+          "received_s": 10654.59435018,
+          "rx_frame_id": "317997",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10655.184159938,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 14.488145234531443,
+          "received_s": 10655.080033211,
+          "rx_frame_id": "3939",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10654.894165773,
+          "rx_frame_id": "318012",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10654.89326801,
+          "rx_frame_id": "318012",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10654.859839049,
+          "rx_frame_id": "318011",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10655.717047245,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 14.488145234531443,
+          "received_s": 10655.621956184,
+          "rx_frame_id": "3952",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.393854538,
+          "rx_frame_id": "318028",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.393999207,
+          "rx_frame_id": "318028",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.393419074,
+          "rx_frame_id": "318027",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10656.250357766,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 14.488145234531443,
+          "received_s": 10656.122942884,
+          "rx_frame_id": "3965",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.894399358,
+          "rx_frame_id": "318044",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.893300051,
+          "rx_frame_id": "318044",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10655.860431389,
+          "rx_frame_id": "318043",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10656.750994462,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 14.488145234531443,
+          "received_s": 10656.705483626,
+          "rx_frame_id": "3977",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10656.626687039,
+          "rx_frame_id": "318059",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10656.627240339,
+          "rx_frame_id": "318059",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.995094579806114,
+          "received_s": 10656.594624264,
+          "rx_frame_id": "318059",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10657.28416294,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.997676993321477,
+          "received_s": 10657.205151975,
+          "rx_frame_id": "3989",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10656.960090262,
+          "rx_frame_id": "318075",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10656.961171777,
+          "rx_frame_id": "318075",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10656.927022098,
+          "rx_frame_id": "318075",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10657.816899161,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.997676993321477,
+          "received_s": 10657.705200662,
+          "rx_frame_id": "4002",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10657.760460883,
+          "rx_frame_id": "318091",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10657.760013752,
+          "rx_frame_id": "318091",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10657.72750472,
+          "rx_frame_id": "318091",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10658.317086976,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.997676993321477,
+          "received_s": 10658.164947753,
+          "rx_frame_id": "4014",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.194331824,
+          "rx_frame_id": "318106",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.193477813,
+          "rx_frame_id": "318106",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.194082446,
+          "rx_frame_id": "318105",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10658.817257581,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.997676993321477,
+          "received_s": 10658.746941612,
+          "rx_frame_id": "4026",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.526806368,
+          "rx_frame_id": "318121",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.527268957,
+          "rx_frame_id": "318121",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 4.9992740604129615,
+          "received_s": 10658.527381251,
+          "rx_frame_id": "318121",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10659.350809898,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.248833647580886,
+          "received_s": 10659.290210645,
+          "rx_frame_id": "4039",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.194267905,
+          "rx_frame_id": "318137",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.193976235,
+          "rx_frame_id": "318137",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.194701328,
+          "rx_frame_id": "318137",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10659.883367033,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.248833647580886,
+          "received_s": 10659.78871202,
+          "rx_frame_id": "4052",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.827021215,
+          "rx_frame_id": "318153",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.827699932,
+          "rx_frame_id": "318153",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10659.793911925,
+          "rx_frame_id": "318153",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    },
+    {
+      "monotonic_s": 10660.383421554,
+      "pid": 25454,
+      "channels": [
+        {
+          "channel": 0,
+          "image_fresh": 0,
+          "hz": 15.248833647580886,
+          "received_s": 10660.289939932,
+          "rx_frame_id": "4064",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 1,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10660.060442059,
+          "rx_frame_id": "318168",
+          "proximity_level": 0,
+          "image_clear": 0
+        },
+        {
+          "channel": 2,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10660.061377446,
+          "rx_frame_id": "318168",
+          "proximity_level": 0,
+          "image_clear": 1
+        },
+        {
+          "channel": 3,
+          "image_fresh": 1,
+          "hz": 5.410876455593217,
+          "received_s": 10660.060909898,
+          "rx_frame_id": "318167",
+          "proximity_level": 0,
+          "image_clear": 1
+        }
+      ]
+    }
+  ],
+  "physical_visibility_confirmed": false,
+  "scope": "Actual RGB key pixels and continuously updating side/rear evidence. Does not prove target recall, physical NV12 visibility, audibility or zero CPU increase."
+}

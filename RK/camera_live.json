@@ -1,0 +1,13 @@
+{
+  "description": "Generic initial ROI/IPM, adjust to each video/camera; not metric calibration",
+  "roi": [0.43,0.56,0.57,0.56,0.96,0.96,0.04,0.96],
+  "ego_x": 0.5,
+  "reference_y": 0.88,
+  "ransac_pixels": 6.0,
+  "min_span_pixels": 70.0,
+  "ema_alpha": 0.6,
+  "temporal_filter": "ema",
+  "max_gap_seconds": 0.75,
+  "min_class_probability": 0.5,
+  "appearance_styles": 1
+}

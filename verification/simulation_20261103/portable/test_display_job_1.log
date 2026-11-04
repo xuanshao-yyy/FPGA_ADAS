@@ -1,0 +1,1 @@
+PASS display job: four tasks in one sync end, no reuse before completion, missing handle, partial-add cancellation, end failure without double cancellation. Driver support pending.

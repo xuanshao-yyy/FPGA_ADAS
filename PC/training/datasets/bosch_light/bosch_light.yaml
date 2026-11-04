@@ -1,0 +1,6 @@
+path: F:/yolo_for_qiansai/datasets/bosch_light
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: traffic_light

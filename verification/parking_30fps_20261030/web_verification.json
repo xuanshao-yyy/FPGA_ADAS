@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "fixture_only": true,
+  "logo_loaded": true,
+  "duplicate_requests_blocked": true,
+  "drive_park_panorama_return_buttons": true,
+  "park_return_enabled_while_video_loading": true,
+  "request_error_recovers_controls": true,
+  "desktop": [
+    1440,
+    1100
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "page_errors": [],
+  "scope": "Browser UI with API fixtures only; no RK latency, real stream or FPGA acceptance."
+}

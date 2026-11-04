@@ -1,0 +1,11 @@
+{
+  "scene": "scene_player_night_video",
+  "width": 1280,
+  "height": 720,
+  "loop_frames": 239,
+  "rois": {
+    "LEFT": [],
+    "STRAIGHT": [],
+    "RIGHT": []
+  }
+}

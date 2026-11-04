@@ -1,0 +1,17 @@
+# Invoke through scripts/build_vm.sh with the actual SDK compiler and sysroot.
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+if(NOT DEFINED ENV{RK_CXX} OR NOT DEFINED ENV{RK_SYSROOT})
+  message(FATAL_ERROR "Set RK_CXX=/absolute/path/to/aarch64-...-g++ and RK_SYSROOT=/absolute/path/to/target/sysroot")
+endif()
+set(CMAKE_CXX_COMPILER "$ENV{RK_CXX}")
+set(CMAKE_SYSROOT "$ENV{RK_SYSROOT}")
+set(CMAKE_FIND_ROOT_PATH "${CMAKE_SYSROOT}")
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+# Prevent picking the VM's x86 GStreamer .pc files.
+set(ENV{PKG_CONFIG_PATH} "")
+set(ENV{PKG_CONFIG_SYSROOT_DIR} "${CMAKE_SYSROOT}")
+set(ENV{PKG_CONFIG_LIBDIR} "${CMAKE_SYSROOT}/usr/lib/aarch64-linux-gnu/pkgconfig:${CMAKE_SYSROOT}/usr/lib/pkgconfig:${CMAKE_SYSROOT}/usr/share/pkgconfig:${CMAKE_SYSROOT}/lib/aarch64-linux-gnu/pkgconfig")

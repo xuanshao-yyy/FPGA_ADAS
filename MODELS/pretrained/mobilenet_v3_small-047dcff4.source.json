@@ -1,0 +1,7 @@
+{
+  "url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "bytes": 10306551,
+  "sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "published_full_sha256": null,
+  "published_hash_prefix": "047dcff4"
+}

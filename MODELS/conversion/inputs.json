@@ -1,0 +1,14 @@
+{
+  "detector_sha256": "e52ceb41510ace2555cdba415af371505f585e21c6237b0b167bdb4c74246a7c",
+  "color_checkpoint": "F:\\yolo_for_qiansai\\runs\\light_overnight_20261019_003952_053241\\training\\color\\weights\\best.pt",
+  "color_sha256": "4adb32b267325c4bce8769ef48ad2efc5387fc6325935082082baf8c21cc9d79",
+  "color_onnx_max_abs_error": 4.258938133716583e-06,
+  "color_contract": {
+    "input_size": 128,
+    "channels": "RGB",
+    "padding": 0.08,
+    "resize": "letterbox114",
+    "normalization": "ImageNet mean/std",
+    "scope": "explicit red/yellow/green crops; no trained off/non-signal class"
+  }
+}

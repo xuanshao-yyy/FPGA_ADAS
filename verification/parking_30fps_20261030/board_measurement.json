@@ -1,0 +1,76 @@
+{
+  "wire": {
+    "frame_headers": 373,
+    "unique_frame_ids": 362,
+    "fps": 30.070525033759626,
+    "duplicate_header_copies": 11,
+    "packet_types": {
+      "0": 373
+    },
+    "source_step_min": 1,
+    "source_step_max": 1,
+    "interface": "eth1"
+  },
+  "encoded_mp4": {
+    "samples_after_warmup": 305,
+    "fragments": 68,
+    "window_s": 10.007658550000087,
+    "fps": 29.877118459441984
+  },
+  "machine_cpu_pct": 31.122881355932208,
+  "errors": [],
+  "target": {
+    "fps": 30,
+    "bitrate": 5000000
+  },
+  "media": {
+    "ready": true,
+    "codec": "avc1.641028",
+    "sequence": 86,
+    "bytes": 1130147,
+    "generation": 5
+  },
+  "parking_log_tail": [
+    "RGA color self-check PASS: RGB565 LE -> NV12 BT.601 limited; input format=0x2400",
+    "YOLO input 640x384, outputs=native INT8, Runtime=2.3.2 (429f97ae6b@2025-04-09T09:09:27)",
+    "RGA NPU input self-check PASS: RGB565 LE -> RGB byte order; output format=0x200",
+    "PARK rx=59 encoded=59 dropped_raw=0 invalid=0 missing=73",
+    "PARK rx=119 encoded=119 dropped_raw=0 invalid=0 missing=73",
+    "PARK rx=179 encoded=179 dropped_raw=0 invalid=0 missing=73",
+    "PARK rx=239 encoded=239 dropped_raw=0 invalid=0 missing=73",
+    "PARK rx=299 encoded=299 dropped_raw=0 invalid=0 missing=73",
+    "PARK rx=359 encoded=359 dropped_raw=0 invalid=0 missing=73"
+  ],
+  "status": "PASS",
+  "scope": "12-second real FPGA/RK sample, two-second MP4 warmup excluded. Browser presentation measured separately; no long-run or accuracy guarantee.",
+  "parking_ai": {
+    "fresh": true,
+    "age_s": 0.10259487199982686,
+    "channels": [
+      {
+        "channel": 0,
+        "valid": true,
+        "level": 1,
+        "hz": 9.24152912888
+      },
+      {
+        "channel": 1,
+        "valid": true,
+        "level": 0,
+        "hz": 9.28462485436
+      },
+      {
+        "channel": 2,
+        "valid": true,
+        "level": 0,
+        "hz": 9.24828479923
+      },
+      {
+        "channel": 3,
+        "valid": true,
+        "level": 0,
+        "hz": 9.81049902732
+      }
+    ]
+  }
+}

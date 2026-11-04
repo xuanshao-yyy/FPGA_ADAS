@@ -1,0 +1,7 @@
+!product/web/*.html
+!product/web/*.css
+!product/web/*.js
+!product/web/logo.png
+!assets/logo_source.jpg
+!tests/detection_results.csv
+!tests/tracking_results.csv

@@ -1,0 +1,9 @@
+{
+  "signal_control_rules_byte_equal": true,
+  "signal_state_byte_equal": true,
+  "same_gate_policy": true,
+  "only_added_request_button_maps_to_existing_space": true,
+  "binary_sha256": "817b33b72f8992d8017ac47449620cdd2ca750aab79a3c8a53b86399798c02d7",
+  "full_cold_reboot_tested": false,
+  "steady_cpu_zero_increase_verified": false
+}
